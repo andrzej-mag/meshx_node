@@ -70,7 +70,8 @@ Use Consul UI to allow/deny connection between nodes with [Consul intentions](ht
 Other `erl` command line options that might be helpful:
   - `-start_epmd false` - do not start EPMD,
   - `-kernel inet_dist_use_interface {127,0,0,1}` - limit Erlang listen interface to loopback,
-  - `-connect_all false` - do not maintain a fully connected network of distributed Erlang nodes.
+  - `-connect_all false` - do not maintain a fully connected network of distributed Erlang nodes,
+  - `-no_epmd` - specifies that the distributed node does not need epmd at all (OTP24+).
 
 <!-- MDOC !-->
 Next section on hexdocs.pm: [Configuration options].

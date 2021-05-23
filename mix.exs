@@ -1,8 +1,8 @@
 defmodule MeshxNode.MixProject do
   use Mix.Project
 
-  @version "0.1.0-dev"
   @source_url "https://github.com/andrzej-mag/meshx_node"
+  @version "0.1.0"
 
   def project do
     [
@@ -36,7 +36,12 @@ defmodule MeshxNode.MixProject do
       main: "MeshxNode",
       assets: "docs/assets",
       source_url: @source_url,
-      source_ref: "v#{@version}"
+      source_ref: "v#{@version}",
+      deps: [
+        meshx: "https://hexdocs.pm/meshx",
+        meshx_consul: "https://hexdocs.pm/meshx_consul",
+        meshx_rpc: "https://hexdocs.pm/meshx_rpc"
+      ]
     ]
   end
 end

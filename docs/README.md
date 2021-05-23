@@ -1,4 +1,6 @@
 # MeshxNode
+[![Hex Version](https://img.shields.io/hexpm/v/meshx_node)](https://hex.pm/packages/meshx_node)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen)](https://hexdocs.pm/meshx_node)
 
 <!-- MDOC !-->
 Service mesh distribution module.
@@ -74,4 +76,4 @@ Other `erl` command line options that might be helpful:
   - `-no_epmd` - specifies that the distributed node does not need epmd at all (OTP24+).
 
 <!-- MDOC !-->
-Next section on hexdocs.pm: [Configuration options].
+Next section on hexdocs.pm: [Configuration options](https://hexdocs.pm/meshx_node/MeshxNode.html#module-configuration-options).

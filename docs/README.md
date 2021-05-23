@@ -25,8 +25,8 @@ Add `:meshx_consul` and `:meshx_node` to application dependencies:
 # mix.exs
 def deps do
   [
-    {:meshx_consul, "~> 0.1.0-dev", github: "andrzej-mag/meshx_consul"},
-    {:meshx_node, "~> 0.1.0-dev", github: "andrzej-mag/meshx_node"}
+    {:meshx_consul, "~> 0.1.0"},
+    {:meshx_node, "~> 0.1.0"}
   ]
 end
 ```
